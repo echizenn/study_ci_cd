@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["TomohiroFukui"]
 readme = "README.md"
+packages = [{ include = "my_lib" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
