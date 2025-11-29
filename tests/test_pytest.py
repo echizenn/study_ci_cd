@@ -12,5 +12,6 @@ def test_pytest():
 def test_pytest_ng():
     assert func() is False
 
-def test_ruff_check():
-    var = f"This is a sample string with a trailing whitespace. "
+# If you want to demonstrate a ruff check failure, you can uncomment the lines below
+# def test_ruff_check():
+#     var = f"This is a sample string with a trailing whitespace. "
