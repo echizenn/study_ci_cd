@@ -19,3 +19,5 @@ jobs:
       run: poetry install
     - name: test with pytest
       run: poetry run pytest
+    - name: Lint code with Ruff
+      run: poetry run ruff check . --output-format=github --target-version py312

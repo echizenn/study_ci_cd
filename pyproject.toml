@@ -12,6 +12,7 @@ python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^9.0.1"
+ruff = "^0.14.7"
 
 [build-system]
 requires = ["poetry-core"]
