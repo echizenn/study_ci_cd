@@ -11,3 +11,6 @@ def test_pytest():
 @pytest.mark.skip(reason="demonstration of skipping")
 def test_pytest_ng():
     assert func() is False
+
+def test_ruff_check():
+    var = f"This is a sample string with a trailing whitespace. "
